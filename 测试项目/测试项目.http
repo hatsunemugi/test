@@ -1,0 +1,11 @@
+@测试项目_HostAddress = http://localhost:5284
+
+GET {{测试项目_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{测试项目_HostAddress}}/todos/1
+Accept: application/json
+
+###
